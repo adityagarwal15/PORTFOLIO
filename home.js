@@ -34,9 +34,9 @@ function setActive(section) {
     }
   
     if (section === 'project') {
-      window.location.href = 'http://127.0.0.1:3000/projects.html';
+      window.location.href = '/projects.html';
     } else if (section === 'about') {
-      window.location.href = 'http://127.0.0.1:3000/about.html';
+      window.location.href = '/about.html';
     } else if (section === 'resume') {
       alert('Resume page is under construction.'); // Optional placeholder for the resume link
     }
