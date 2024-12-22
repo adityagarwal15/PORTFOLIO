@@ -1,0 +1,31 @@
+.footer {
+    background: linear-gradient(135deg, #101010, #2c3e50);
+}
+
+
+
+
+background-image: radial-gradient(circle at 50% 0, #ff00e680, #0000), radial-gradient(circle at 50% 50%, #00e6ffb3, #0000);
+
+    /* background-image: radial-gradient(circle at 50% 0, #00ffcc66, #0000), radial-gradient(circle at 50% 50%, #ff00cc99, #0000);
+
+    background-image: radial-gradient(circle at 50% 0, #00ffbb66, #0000), radial-gradient(circle at 50% 100%, #007bff88, #0000);
+
+    background-image: radial-gradient(circle at 50% 0, #00ffaa66, #0000), radial-gradient(circle at 50% 50%, #ff800080, #0000); */
+
+ "Every project here represents a moment of discovery, where challenges sparked innovative solutions."
+"Step into the world of my projects—where ideas evolve, problems are solved, and visions become reality."
+"Dive into the work that has shaped my path, where creativity meets purpose and growth."
+"Each project reflects a milestone in my journey—pushing boundaries and embracing new opportunities."
+"These projects are the result of passion, persistence, and the pursuit of excellence."
+"Take a look at the projects I’m most proud of—where ideas come to life and challenges become opportunities."
+"From concept to execution, these projects reflect my journey and the solutions I’m excited to share."
+"A curated collection of my work—projects that challenge me, inspire me, and showcase what I can do."
+"Each project here tells a story of growth, learning, and the drive to create something meaningful."
+"These projects are a window into my skills and the passion that fuels my work."
+"Explore the innovative projects that showcase my skills, creativity, and passion for technology."
+"Here’s a glimpse of the projects that showcase my passion for problem-solving and design."
+"Innovative projects that demonstrate my skills, creativity, and commitment to excellence."
+"A collection of projects that reflect my journey, expertise, and innovative solutions."
+"Discover my work through projects that challenge the status quo and push boundaries."
+"Explore the projects that define my skills, creativity, and drive for innovation."
