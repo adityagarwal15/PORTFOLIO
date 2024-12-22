@@ -34,7 +34,7 @@ function setActive(section) {
     }
   
     if (section === 'project') {
-      window.location.href = 'http://127.0.0.1:3000/projectpage.html';
+      window.location.href = 'http://127.0.0.1:3000/projects.html';
     } else if (section === 'about') {
       window.location.href = 'http://127.0.0.1:3000/about.html';
     } else if (section === 'resume') {
