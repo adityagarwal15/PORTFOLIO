@@ -24,7 +24,7 @@ function updateGreeting() {
         document.getElementById("animation-container").classList.add("final");
 
         setTimeout(() => {
-            window.location.href = "https://adityagarwal.netlify.app/home.html"; 
+            window.location.href = "/home.html"; 
         }, 1000);  // Allow time for the final animation to complete before redirecting
     }
 }
