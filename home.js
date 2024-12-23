@@ -272,15 +272,20 @@ document.querySelectorAll('.project-card.modern').forEach(card => {
     observer.observe(card);
 });
 
-// Smooth Scroll for Anchor Links
 document.querySelectorAll('a').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
+        const targetId = this.getAttribute('href');
+
+        // Check if the target is within the same page (starts with '#')
+        if (targetId.startsWith('#')) {
+            e.preventDefault();
+            document.querySelector(targetId).scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
     });
 });
+
 
 // Staggered Animation Delays for Cards
 const cards = document.querySelectorAll('.project-card.modern');
