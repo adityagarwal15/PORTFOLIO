@@ -923,7 +923,7 @@ img {
     .section-projects {
         align-items: stretch;
         padding: 24px;
-        padding-top: 100px
+        padding-top: 165px
     }
     .container-projects {
         width: auto;
@@ -954,7 +954,7 @@ img {
 @media screen and (max-width: 768px) {
     .section-projects {
         padding: 16px;
-        padding-top: 100px
+        padding-top: 140px
     }
     .container-projects {
         flex-direction: column;
@@ -1028,7 +1028,7 @@ img {
 
     .section-projects {
         padding: 8px;
-        padding-top: 100px
+        padding-top: 120px
     }
     .project-card {
         padding: 12px;
