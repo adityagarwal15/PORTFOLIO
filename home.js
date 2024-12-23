@@ -174,7 +174,7 @@ function setActive(section) {
   });
   
   document.getElementById('logo').addEventListener('click', function() {
-    window.location.href = "http://127.0.0.1:3000/greet.html"; // Redirect to greet.html
+    window.location.href = "/index.html"; // Redirect to greet.html
   });
   
    
