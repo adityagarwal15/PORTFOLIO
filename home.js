@@ -319,7 +319,7 @@ button.addEventListener('click', (e) => {
     
     // Redirect after the transition effect completes
     setTimeout(() => {
-        window.location.href = 'http://127.0.0.1:3000/projectpage.html';
+        window.location.href = '/projects.html';
     }, 800); // Match CSS transition time (0.8s)
 });
 
