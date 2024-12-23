@@ -9,6 +9,8 @@ body {
     font-family: Arial, sans-serif;
     font-size: 14px;
     line-height: 20px;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
     
 * {
