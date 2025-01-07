@@ -43,7 +43,7 @@ function setActive(section) {
   } else if (section === 'about') {
     window.location.href = '/about.html';
   } else if (section === 'resume') {
-    alert('Resume page is under construction.'); // Optional placeholder for the resume link
+    window.open('/Aditya_Agarwal_Resume.pdf', '_blank');
   }
 }
 
