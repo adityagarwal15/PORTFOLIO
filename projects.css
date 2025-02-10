@@ -902,7 +902,10 @@ img {
 .project-card-colour.thn {
     /* background-image: radial-gradient(circle at 50% 0, #ffffff4d, #0000); */
       
-      background-image: radial-gradient(circle at 50% 0, #00ffaa66, #0000), radial-gradient(circle at 50% 50%, #ff800080, #0000);
+/*       background-image: radial-gradient(circle at 50% 0, #00ffaa66, #0000), radial-gradient(circle at 50% 50%, #ff800080, #0000); */
+    background-image: radial-gradient(circle at 50% 0, #ff336680, #0000), 
+                  radial-gradient(circle at 50% 100%, #9900ff80, #0000);
+
 }
 .project-card-colour {
     z-index: 0;
