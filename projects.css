@@ -906,8 +906,14 @@ img {
 /*     background-image: radial-gradient(circle at 50% 0, #ff336680, #0000), 
                   radial-gradient(circle at 50% 100%, #9900ff80, #0000); */
 
-    background-image: radial-gradient(circle at 50% 0, #ff450080, #0000), 
-                  radial-gradient(circle at 50% 100%, #ff149380, #0000);
+/*     background-image: radial-gradient(circle at 50% 0, #ff450080, #0000), 
+                  radial-gradient(circle at 50% 100%, #ff149380, #0000); */
+
+    background-image:  
+    radial-gradient(circle at 30% 20%, #ff007f99, #0000), 
+    radial-gradient(circle at 70% 80%, #8000ff99, #0000),  
+    linear-gradient(135deg, #000000, #1a001a, #330033, #660000);
+
 
 
 }
