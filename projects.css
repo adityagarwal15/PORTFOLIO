@@ -900,21 +900,23 @@ img {
 }
 
 .project-card-colour.thn {
-    /* background-image: radial-gradient(circle at 50% 0, #ffffff4d, #0000); */
-      
-/*       background-image: radial-gradient(circle at 50% 0, #00ffaa66, #0000), radial-gradient(circle at 50% 50%, #ff800080, #0000); */
+  
 /*     background-image: radial-gradient(circle at 50% 0, #ff336680, #0000), 
                   radial-gradient(circle at 50% 100%, #9900ff80, #0000); */
 
 /*     background-image: radial-gradient(circle at 50% 0, #ff450080, #0000), 
                   radial-gradient(circle at 50% 100%, #ff149380, #0000); */
 
- 
-
-    background-image:  
+/*     background-image:  
     radial-gradient(circle at 30% 20%, #ff006680, #0000), 
     radial-gradient(circle at 70% 80%, #6600ff80, #0000),  
-    linear-gradient(135deg, #000000, #220033, #440055, #660022);
+    linear-gradient(135deg, #000000, #220033, #440055, #660022); */
+
+    background-image:  
+    radial-gradient(circle at 50% 0, #ff4500b3, #0000),  
+    radial-gradient(circle at 50% 100%, #ff1493b3, #0000),  
+    linear-gradient(160deg, #000000, #330000, #660000, #990000);
+
 
 
 
