@@ -937,15 +937,10 @@ background-color: #0a0a23;
 /*     background-image: radial-gradient(circle at 50% 0, #00ffcc66, #0000), radial-gradient(circle at 50% 50%, #ff00cc99, #0000); */
 
 
-/*     background-image: radial-gradient(circle at 50% 0, #b50000aa, #000000 80%), 
-                  radial-gradient(circle at 50% 50%, #ff000099, #000000); */
+    background-image: radial-gradient(circle at 50% 0, #b50000aa, #000000 80%), 
+                  radial-gradient(circle at 50% 50%, #ff000099, #000000);
 
-background-image: 
-  radial-gradient(circle at 50% 50%, #ffffff0d, #0000),
-  radial-gradient(circle at 30% 70%, #8888880f, #0000),
-  radial-gradient(circle at 70% 30%, #cccccc08, #0000),
-  radial-gradient(circle at 50% 100%, #1f1f1f80, #0000);
-background-color: #0e0e0e;
+
 
 
 }
@@ -956,7 +951,12 @@ background-color: #0e0e0e;
 }
 
 .project-card-colour.rbc {
-    background-image: radial-gradient(circle at 50% 0, #ff00e680, #0000), radial-gradient(circle at 50% 50%, #00e6ffb3, #0000);
+   background-image: 
+  radial-gradient(circle at 50% 50%, #ffffff0d, #0000),
+  radial-gradient(circle at 30% 70%, #8888880f, #0000),
+  radial-gradient(circle at 70% 30%, #cccccc08, #0000),
+  radial-gradient(circle at 50% 100%, #1f1f1f80, #0000);
+background-color: #0e0e0e;
 
     /* background-image: radial-gradient(circle at 50% 0, #00ffcc66, #0000), radial-gradient(circle at 50% 50%, #ff00cc99, #0000);
 
