@@ -961,10 +961,13 @@ background-color: #0a0a23;
 
 .project-card-colour.null{
 background-image:
-  radial-gradient(circle at 50% 50%, #ff006699 0%, transparent 60%),
-  radial-gradient(circle at 25% 25%, #ffcc0099, transparent 80%),
-  radial-gradient(circle at 75% 75%, #66ff6699, transparent 80%);
-background-color: #000000;
+  linear-gradient(135deg, rgba(255, 255, 255, 0.03) 25%, transparent 25%),
+  linear-gradient(225deg, rgba(255, 255, 255, 0.03) 25%, transparent 25%),
+  linear-gradient(45deg, rgba(255, 255, 255, 0.03) 25%, transparent 25%),
+  linear-gradient(315deg, rgba(255, 255, 255, 0.03) 25%, transparent 25%);
+background-color: #1a1a1a;
+background-size: 40px 40px;
+
 
 
 }
