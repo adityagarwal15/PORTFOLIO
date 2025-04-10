@@ -959,6 +959,15 @@ background-color: #0a0a23;
     radial-gradient(circle at 20% 80%, rgba(255, 255, 255, 0.03), transparent 50%);
 }
 
+.project-card-colour.null{
+background-image:
+  radial-gradient(circle at 20% 30%, rgba(255, 215, 0, 0.3), transparent),
+  radial-gradient(circle at 80% 70%, rgba(255, 0, 128, 0.2), transparent),
+  radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.6), transparent);
+background-color: #111; /* fallback dark tone */
+}
+
+
 
 .project-card-colour {
     z-index: 0;
