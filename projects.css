@@ -888,8 +888,14 @@ img {
   radial-gradient(circle at 30% 90%, #ff00ff33, #0000),
   radial-gradient(circle at 50% 50%, #1a1a40aa, #0000);
 background-color: #0a0a23;
-
 }
+
+.project-card.old{
+    background-image: radial-gradient(circle at 50% 50%, #00fff520 0%, transparent 30%), radial-gradient(circle at 80% 80%, #ff007730 0%, transparent 60%), radial-gradient(circle at 20% 20%, #7000ff20 0%, transparent 60%), linear-gradient(135deg, #050505, #101010);
+    background-color: #050505;
+}
+
+
 .project-card-colour {
     z-index: 0;
     position: absolute;
