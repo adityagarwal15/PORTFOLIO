@@ -890,7 +890,7 @@ img {
 background-color: #0a0a23;
 }
 
-.project-card.old{
+.project-card-colour.old{
     background-image: radial-gradient(circle at 50% 50%, #00fff520 0%, transparent 30%), radial-gradient(circle at 80% 80%, #ff007730 0%, transparent 60%), radial-gradient(circle at 20% 20%, #7000ff20 0%, transparent 60%), linear-gradient(135deg, #050505, #101010);
     background-color: #050505;
 }
