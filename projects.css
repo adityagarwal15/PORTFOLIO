@@ -881,19 +881,34 @@ img {
     border: 0;
 }
 
-.project-card-colour.stadiabt {
-   background-image: 
+/* BUGEASE */
+.project-card-colour.stadiabt { 
+    /* FILL */
+   /* background-image: 
   radial-gradient(circle at 50% 20%, #b266ff40, #0000),
   radial-gradient(circle at 70% 80%, #00ffff22, #0000),
   radial-gradient(circle at 30% 90%, #ff00ff33, #0000),
   radial-gradient(circle at 50% 50%, #1a1a40aa, #0000);
-background-color: #0a0a23;
+background-color: #0a0a23; */
+
+/* SPOTLIGHT */
+background-image: 
+  radial-gradient(circle at 50% 0, #b266ffbf, transparent 50%),
+  radial-gradient(circle at 70% 80%, #000000, transparent 60%),
+  radial-gradient(circle at 30% 90%, #000000, transparent 55%),
+  radial-gradient(circle at 50% 50%, #1a1a40aa, transparent 65%),
+  linear-gradient(145deg, #050505, #101010);
+background-color: #050505;
+
 }
 
+/* OLD PORTFOLIO */
 .project-card-colour.old{
+    /* FILL */
 /*    background-image: radial-gradient(circle at 50% 0, #007ce9aa, #000000 80%), radial-gradient(circle at 50% 50%, #0051ff99, #000000);
      background-color: #050505; */
 
+     /* SPOTLIGHT */
     background-image: radial-gradient(circle at 50% 0, #009affbf, transparent 50%), radial-gradient(circle at 80% 80%, #00000060, transparent 60%), linear-gradient(145deg, #050505, #101010);
     background-color: #050505;
 }
@@ -912,28 +927,20 @@ background-color: #0a0a23;
     opacity: 1;
 }
 
-.project-card-colour.thn {
-  
-/*     background-image: radial-gradient(circle at 50% 0, #ff336680, #0000), 
-                  radial-gradient(circle at 50% 100%, #9900ff80, #0000); */
-
-/*     background-image: radial-gradient(circle at 50% 0, #ff450080, #0000), 
-                  radial-gradient(circle at 50% 100%, #ff149380, #0000); */
-
-/*     background-image:  
-    radial-gradient(circle at 30% 20%, #ff006680, #0000), 
-    radial-gradient(circle at 70% 80%, #6600ff80, #0000),  
-    linear-gradient(135deg, #000000, #220033, #440055, #660022); */
-
-    background-image:  
+/* JOBSYNC */
+.project-card-colour.thn {   
+    /* full */
+    /* background-image:  
     radial-gradient(circle at 50% 0, #ff4500b3, #0000),  
     radial-gradient(circle at 50% 100%, #ff1493b3, #0000),  
-    linear-gradient(160deg, #000000, #330000, #660000, #990000);
+    linear-gradient(160deg, #000000, #330000, #660000, #990000); */
 
-
-
-
-
+    /* spotlight */
+    background-image: 
+    radial-gradient(circle at 50% 0, #ff4500bf, transparent 50%),
+    radial-gradient(circle at 80% 80%, #00000060, transparent 60%),
+    linear-gradient(145deg, #050505, #000000);
+    background-color: #050505;
 }
 .project-card-colour {
     z-index: 0;
@@ -942,14 +949,19 @@ background-color: #0a0a23;
 }
 
 .project-card-colour.spotlight {
-    /* background-image: radial-gradient(circle at 50% 0, #0890fb40, #0000 60%), repeating-radial-gradient(circle at 50% 0, #9e05d666, #0000); */
-/*     background-image: radial-gradient(circle at 50% 0, #00ffcc66, #0000), radial-gradient(circle at 50% 50%, #ff00cc99, #0000); */
+
+/* FILL */
+    /* background-image: radial-gradient(circle at 50% 0, #b50000aa, #000000 80%), 
+                  radial-gradient(circle at 50% 50%, #ff000099, #000000); */
 
 
-    background-image: radial-gradient(circle at 50% 0, #b50000aa, #000000 80%), 
-                  radial-gradient(circle at 50% 50%, #ff000099, #000000);
-
-
+    /* SPOTLIGHT */
+    background-image: 
+    radial-gradient(circle at 50% 0, #b50000aa, transparent 50%),
+    radial-gradient(circle at 50% 50%, #000000, transparent 60%),
+    linear-gradient(145deg, #000000, #000000);
+  background-color: #000000;
+  
 
 
 }
@@ -969,12 +981,21 @@ background-color: #0a0a23;
 }
 
 .project-card-colour.null{
-background-image: 
+
+    /* OLD FILL */
+/* background-image: 
   radial-gradient(circle at 50% 40%, #ffffff0a, #000000 70%),
   radial-gradient(circle at 25% 75%, #ffe4b360, transparent),
   radial-gradient(circle at 75% 25%, #ffb6c160, transparent);
-background-color: #0d0d0d;
+background-color: #0d0d0d; */
 
+/* SPOTLIGHT */
+background-image: 
+  radial-gradient(circle at 50% 0, #ffe4b28c, transparent 50%),
+  radial-gradient(circle at 25% 75%, #000000, transparent 60%),
+  radial-gradient(circle at 75% 25%, #000000, transparent 60%),
+  linear-gradient(145deg, #050505, #101010);
+background-color: #050505;
 
 
 
