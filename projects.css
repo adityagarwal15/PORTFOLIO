@@ -902,6 +902,18 @@ background-color: #050505;
 
 }
 
+.project-card-colour.vaish{
+/*     //SPOTLIGHT VAISHNAVI */
+background-image: 
+  radial-gradient(circle at 50% 0, #ffe4b28c, transparent 50%),
+  radial-gradient(circle at 25% 75%, #000000, transparent 60%),
+  radial-gradient(circle at 75% 25%, #000000, transparent 60%),
+  linear-gradient(145deg, #050505, #101010);
+background-color: #050505;
+    
+}
+
+
 /* OLD PORTFOLIO */
 .project-card-colour.old{
     /* FILL */
