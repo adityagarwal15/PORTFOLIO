@@ -25,10 +25,10 @@ The live version of my portfolio website is hosted on Netlify.
 Visit it here: [https://adityagarwal.netlify.app](https://adityagarwal.netlify.app)
 
 ### Screenshot
-![Portfolio Screenshot](https://res.cloudinary.com/dcf0cpuqf/image/upload/v1735073629/Screenshot_2024-12-25_021950_eznls8.png)
+![Portfolio Screenshot](https://res.cloudinary.com/dcf0cpuqf/image/upload/v1745145351/Screenshot_2025-04-20_160515_l3qwcr.png)
 
 ### Walkthrough Video
-[![Portfolio Walkthrough](https://res.cloudinary.com/dcf0cpuqf/image/upload/v1735073629/Screenshot_2024-12-25_021950_eznls8.png)](https://res.cloudinary.com/dcf0cpuqf/video/upload/v1735073671/Portfolio_walkthrough_v2zpir.mp4)
+[![Portfolio Walkthrough](https://res.cloudinary.com/dcf0cpuqf/image/upload/v1745145351/Screenshot_2025-04-20_160515_l3qwcr.png)](https://res.cloudinary.com/dcf0cpuqf/video/upload/v1735073671/Portfolio_walkthrough_v2zpir.mp4)
 
 > Click the image above to watch the video!
 
