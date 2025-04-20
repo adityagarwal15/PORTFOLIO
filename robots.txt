@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https:/adityagarwal.netlify.app/sitemap.xml
