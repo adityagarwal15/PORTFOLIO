@@ -1,0 +1,20 @@
+{
+  "short_name": "Aditya",
+  "name": "Aditya Agarwal | Portfolio",
+  "icons": [
+    {
+      "src": "https://res.cloudinary.com/dcf0cpuqf/image/upload/v1735244853/favicon_ka3ikk.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://res.cloudinary.com/dcf0cpuqf/image/upload/v1735244853/favicon_ka3ikk.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/index.html",
+  "background_color": "#000000",
+  "theme_color": "#ff0000",
+  "display": "standalone"
+}
