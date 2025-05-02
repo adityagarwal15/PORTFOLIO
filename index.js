@@ -19,7 +19,7 @@ function updateGreeting() {
     index++;
 
     if (index >= greetings.length) {
-        // After cycling through all greetings, add final slide-up and fade-out animation
+        // After cycling through all greetings, add final slide-up and fade-out animations
         clearInterval(greetingInterval);
         document.getElementById("animation-container").classList.add("final");
 
