@@ -9,35 +9,32 @@ body {
     overflow-x: hidden; /* Prevent horizontal scrolling */
   }
 
-/* Custom Scrollbar for the body */
+/* Custom Scrollbar for Webkit Browsers */
 body::-webkit-scrollbar {
-    width: 6px; /* Thin scrollbar */
-    height: 6px; /* Thin horizontal scrollbar */
+    width: 8px;
+    height: 8px;
 }
 
 body::-webkit-scrollbar-thumb {
-    background: linear-gradient(45deg, #4e4e4e, #7f7f7f); /* Gradient in dark grey shades */
-    border-radius: 50px; /* Fully rounded for a unique look */
-    box-shadow: 0 0 10px rgba(127, 127, 127, 0.5); /* Glow effect */
-    transition: transform 0.3s ease, background 0.3s ease; /* Smooth scaling and hover transition */
+    background-color: #3a3a3a;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
 }
 
 body::-webkit-scrollbar-thumb:hover {
-    transform: scale(1.5); /* Scales up when hovered for visual feedback */
-    background: linear-gradient(45deg, #7f7f7f, #a6a6a6); /* Brighter gradient on hover */
+    background-color: #5a5a5a;
 }
 
 body::-webkit-scrollbar-track {
-    background: #1a1a1a; /* Matches the dark theme */
-    border-radius: 50px; /* Rounded track for a cohesive design */
-    box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.05); /* Subtle inner glow */
+    background-color: #121212;
 }
 
 /* Firefox Compatibility */
 * {
-    scrollbar-width: thin; /* Make the scrollbar thinner */
-    scrollbar-color: #4e4e4e #1a1a1a; /* Thumb color and track color */
+    scrollbar-width: thin;
+    scrollbar-color: #3a3a3a #121212;
 }
+
 
   
 * {
