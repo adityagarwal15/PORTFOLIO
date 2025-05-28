@@ -1,6 +1,13 @@
 {
   "short_name": "Aditya",
   "name": "Aditya Agarwal | Portfolio",
+  "id": "/index.html",
+  "start_url": "/index.html",
+  "background_color": "#000000",
+  "theme_color": "#ff0000",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "orientation": "portrait",
   "icons": [
     {
       "src": "https://res.cloudinary.com/dcf0cpuqf/image/upload/v1735244853/favicon_ka3ikk.png",
@@ -11,10 +18,24 @@
       "src": "https://res.cloudinary.com/dcf0cpuqf/image/upload/v1735244853/favicon_ka3ikk.png",
       "type": "image/png",
       "sizes": "512x512"
+    },
+    {
+      "src": "https://res.cloudinary.com/dcf0cpuqf/image/upload/v1735244853/favicon_ka3ikk.png",
+      "type": "image/png",
+      "sizes": "144x144"
     }
   ],
-  "start_url": "/index.html",
-  "background_color": "#000000",
-  "theme_color": "#ff0000",
-  "display": "standalone"
+  "screenshots": [
+    {
+      "src": "https://res.cloudinary.com/dcf0cpuqf/image/upload/v1745145351/Screenshot_2025-04-20_160515_l3qwcr.png",
+      "sizes": "1200x800",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "https://res.cloudinary.com/dcf0cpuqf/image/upload/v1745145351/Screenshot_2025-04-20_160515_l3qwcr.png",
+      "sizes": "800x1200",
+      "type": "image/png"
+    }
+  ]
 }
