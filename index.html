@@ -6,22 +6,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Aditya Agarwal | Portfolio</title>
-  <meta name="description" content="Experience Aditya Agarwal's portfolio website — a visual journey of creativity and technology." />
-  <meta name="keywords" content="Aditya Agarwal, Portfolio Animation, Intro Animation, Creative Portfolio, Web Development" />
+  <meta name="description" content="Experience Aditya Agarwal's portfolio website — a visual journey of creativity and technology. Full-stack developer and software engineer from MIT Manipal." />
+  <meta name="keywords" content="Aditya Agarwal, Portfolio Animation, Intro Animation, Creative Portfolio, Web Development, Full-Stack Developer, Software Engineer, MIT Manipal" />
   <meta name="author" content="Aditya Agarwal" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 
   <!-- Open Graph / Facebook -->
   <meta property="og:title" content="Aditya Agarwal | Portfolio" />
-  <meta property="og:description" content="A visual journey of creativity and web development through Aditya Agarwal's interactive portfolio." />
+  <meta property="og:description" content="A visual journey of creativity and web development through Aditya Agarwal's interactive portfolio. Full-stack developer and software engineer." />
   <meta property="og:image" content="https://res.cloudinary.com/dcf0cpuqf/image/upload/v1745145351/Screenshot_2025-04-20_160515_l3qwcr.png" />
   <meta property="og:url" content="https://adityagarwal.netlify.app" />
   <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Aditya Agarwal Portfolio" />
+  <meta property="og:locale" content="en_US" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Aditya Agarwal | Portfolio" />
   <meta name="twitter:description" content="A visual journey of creativity and web development through Aditya Agarwal's interactive portfolio." />
   <meta name="twitter:image" content="https://res.cloudinary.com/dcf0cpuqf/image/upload/v1745145351/Screenshot_2025-04-20_160515_l3qwcr.png" />
+  <meta name="twitter:creator" content="@adityagarwal15" />
 
   <!-- Favicon & Icons -->
   <link rel="icon" href="https://res.cloudinary.com/dcf0cpuqf/image/upload/v1735244853/favicon_ka3ikk.png" type="image/png" />
@@ -33,6 +37,35 @@
 
   <!-- Manifest (optional for PWA / mobile optimization) -->
   <link rel="manifest" href="/manifest.json" />
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://adityagarwal.netlify.app" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Aditya Agarwal",
+    "jobTitle": "Software Engineer",
+    "alumniOf": {
+      "@type": "Organization",
+      "name": "MIT Manipal"
+    },
+    "url": "https://adityagarwal.netlify.app",
+    "sameAs": [
+      "https://github.com/adityagarwal15",
+      "https://www.linkedin.com/in/adityagarwal15/"
+    ],
+    "image": "https://res.cloudinary.com/dcf0cpuqf/image/upload/v1736422595/suit1-NEW_enhanced_3_lzlrji.jpg",
+    "description": "Full-stack developer and software engineer passionate about creating beautiful, functional web applications.",
+    "knowsAbout": ["Web Development", "Full-Stack Development", "JavaScript", "React", "Node.js", "MongoDB", "MySQL", "Java", "C"],
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Freelance"
+    }
+  }
+  </script>
 
   <!-- CSS & Fonts -->
   <link rel="stylesheet" href="index.css" />
@@ -83,6 +116,70 @@
           .then(reg => console.log('✅ Service Worker registered', reg))
           .catch(err => console.error('❌ Service Worker registration failed:', err));
       });
+    }
+  </script>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX', {
+      page_title: 'Aditya Agarwal Portfolio - Home',
+      page_location: 'https://adityagarwal.netlify.app',
+      custom_map: {
+        'custom_dimension1': 'user_type',
+        'custom_dimension2': 'page_section'
+      }
+    });
+  </script>
+
+  <!-- Core Web Vitals Monitoring -->
+  <script>
+    // Monitor Core Web Vitals
+    if ('PerformanceObserver' in window) {
+      // LCP (Largest Contentful Paint)
+      new PerformanceObserver((list) => {
+        const entries = list.getEntries();
+        const lastEntry = entries[entries.length - 1];
+        gtag('event', 'web_vitals', {
+          event_category: 'Web Vitals',
+          event_label: 'LCP',
+          value: Math.round(lastEntry.startTime),
+          non_interaction: true
+        });
+      }).observe({entryTypes: ['largest-contentful-paint']});
+
+      // FID (First Input Delay)
+      new PerformanceObserver((list) => {
+        const entries = list.getEntries();
+        entries.forEach((entry) => {
+          gtag('event', 'web_vitals', {
+            event_category: 'Web Vitals',
+            event_label: 'FID',
+            value: Math.round(entry.processingStart - entry.startTime),
+            non_interaction: true
+          });
+        });
+      }).observe({entryTypes: ['first-input']});
+
+      // CLS (Cumulative Layout Shift)
+      new PerformanceObserver((list) => {
+        let clsValue = 0;
+        const entries = list.getEntries();
+        entries.forEach((entry) => {
+          if (!entry.hadRecentInput) {
+            clsValue += entry.value;
+          }
+        });
+        gtag('event', 'web_vitals', {
+          event_category: 'Web Vitals',
+          event_label: 'CLS',
+          value: Math.round(clsValue * 1000) / 1000,
+          non_interaction: true
+        });
+      }).observe({entryTypes: ['layout-shift']});
     }
   </script>
 </body>
